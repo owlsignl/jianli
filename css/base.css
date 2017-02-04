@@ -1,0 +1,43 @@
+body,ul,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+body{font-size:100%;color:#FCF3F3;}
+ul{list-style:none;}
+a{text-decoration:none;color:#ece1e1;}
+.clear:after{content:'';display:block;clear:both;zoom:1;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+h6{background:url(../img/arrow.png);height:60px;width:60px;margin:0 auto;}
+@keyframes width{
+	0%{
+		width:960px;
+	}
+	100%{
+		width:0px;
+	}
+}
+@keyframes show{
+			0%{
+				transform:rotateX(-120deg);
+			}
+			 25%{
+				transform:rotateX(30deg);
+			}
+			50%{
+				transform:rotateX(-15deg);
+			}
+			75%{
+				transform:rotateX(8deg);
+			} 
+			100%{
+				transform:rotateX(0deg);
+			}
+		}
+		@keyframes close{
+			0%{
+				transform:rotateX(0deg);
+			}
+			100%{
+				transform:rotateX(-120deg);
+			}
+		}
+.sport{height:40px;border-top:1px dashed #37E7D3;position:relative;transform-style:preserve-3d;
+	perspective:800px;animation:10s width linear infinite;}
+.sport span{position:absolute;right:-18px;top:-2px;}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>黄天昆的简历</title>
+	<link href="css/base.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<ul class="nav clear">
+			<li>
+				<a href="#about">关于</a>
+				<p></p>
+			</li>
+			<li>
+				<a href="#works">作品</a>
+				<p></p>
+			</li>
+			<li class="special">
+				<a href="#"><img src="img/infer.jpg"/></a>
+				<p></p>
+			</li>
+			<li>
+				<a href="#skill">技能</a>
+				<p></p>
+			</li>
+			<li>
+				<a href="#contact">联系</a>
+				<p></p>
+			</li>
+		</ul>
+		<div class="foot">
+			<p>黄天昆</p>
+			<p>求职岗位：前端工程师</p>
+			<p>期望城市：北京，上海，杭州</p>
+			<h6></h6>
+		</div>
+	</div>
+	<div id="about">
+		<div class="box">
+			<h2>关于我</h2>
+			<div class="sport">
+				<span><img src="img/cut.gif"/></span>
+			</div>
+			<div id="wrap">	
+				<h3>我的信息</h3>
+				<div>
+					<h4>姓名：黄天昆</h4>
+					<div>
+						<h4>性别：男</h4>
+						<div>
+							<h4>学历：本科</h4>
+							<div>
+								<h4>毕业院校：中原工学院</h4>
+								<div>
+									<h4>专业：电子信息工程</h4>
+									<div>
+										<h4>手机号：15538076623</h4>
+										<div>
+											<h4>QQ:1723071993</h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h6 class="hh"></h6>
+	</div>
+	<div id="skill">
+		<h3>专业技能</h3>
+		<div class="sport">
+			<span><img src="img/cut.gif"/></span>
+		</div>
+		<div class="canvas_wrap clear">
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">90%</p>
+						<p class="chart_title">HTML5</p>
+					</div>
+					<canvas id="html5" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">90%</p>
+						<p class="chart_title">CSS3</p>
+					</div>
+					<canvas id="css3" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">90%</p>
+						<p class="chart_title">JS</p>
+					</div>
+					<canvas id="js" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">70%</p>
+						<p class="chart_title">JQUERY</p>
+					</div>
+					<canvas id="jq" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">70%</p>
+						<p class="chart_title">BOOTSTRAP</p>
+					</div>
+					<canvas id="bs" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">70%</p>
+						<p class="chart_title">Angular</p>
+					</div>
+					<canvas id="angular" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">70%</p>
+						<p class="chart_title">React</p>
+					</div>
+					<canvas id="react" width=160 height=160></canvas>
+				</div>
+				<div class="canvas_con">
+					<div class="text_con">
+						<p class="percent">75%</p>
+						<p class="chart_title">Node</p>
+					</div>
+					<canvas id="node" width=160 height=160></canvas>
+				</div>
+	</div>
+	<div class="sty">
+					<p>1.能够熟练运用HTML，CSS，JavaScript进行开发</p>
+					<p>2.掌握流行的框架/库：angular,react,bootstrap</p>
+					<p>3.掌握后台语言：node</p>
+					<p>4.对数据结构和HTTP协议有一定的了解</p>
+					<p>5.小作品()</p>
+	</div>
+	<h6></h6>
+	</div>
+	<script>
+		var oHead=document.getElementById('header');
+		var oAbout=document.getElementById('about');
+		var oSkill=document.getElementById('skill');
+		var cX=document.documentElement.clientWidth;
+		var cY=document.documentElement.clientHeight;
+		oHead.style.width=cX+'px';
+		oAbout.style.width=cX+'px';
+		oSkill.style.width=cX+'px';
+		oHead.style.height=cY+'px';
+		oAbout.style.height=cY+'px';
+		oSkill.style.height=cY+'px';
+	</script>
+	<script src="js/main.js"></script>
+</body>
+</html>
